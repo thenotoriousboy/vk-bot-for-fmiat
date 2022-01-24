@@ -97,7 +97,7 @@ def main():
                     peer_id=event.object.peer_id,
                     keyboard=keyboard_2.get_keyboard(),
                     message="Куратор АС: [vlad_glazov|Владислав Глазов] \nКураторы АТПП: [beeeeeeeeb|Павел Авдошин] и [iv.kolesnichenko10|Иван Колесниченко]",
-                    # заебенить сюда список куряторов
+                    # сюда список куряторов
                 )
 
             elif event.object.payload.get("type") == "krutie_cheli":
@@ -114,7 +114,7 @@ def main():
                     random_id=get_random_id(),
                     peer_id=event.object.peer_id,
                     keyboard=keyboard_2.get_keyboard(),
-                    message="Кафедра ПМ:\nМестонахождение: 1 корп. ауд. 604 \nКонтактный телефон: 37-24-73" #сюда гавнину эту про кафедры вся инфа на сайте улгу
+                    message="Кафедра ПМ:\nМестонахождение: 1 корп. ауд. 604 \nКонтактный телефон: 37-24-73" #сюда про кафедры вся инфа на сайте улгу
                 )
 
 if __name__=="__main__":
